@@ -156,3 +156,4 @@ public class FooBar {
 # 四、参考资料
 
 - https://www.mojohaus.org/templating-maven-plugin/
+- https://github.com/mojohaus/templating-maven-plugin
