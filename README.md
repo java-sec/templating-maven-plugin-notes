@@ -661,5 +661,15 @@ public class FilterSourcesMojo extends AbstractFilterSourcesMojo {
 
 # 五、参考资料
 
+这个库本身是一个比较冷门的库大多数人可能都没有用过，笔者是在阅读Contrast的contrast-sdk-java仓库的代码时无意间发现的：
+
+```
+https://github.com/Contrast-Security-OSS/contrast-sdk-java/blob/main/src/main/java-templates/com/contrastsecurity/sdk/Version.java
+```
+
+当时看到代码愣了一下很好奇它是怎么实现变量注入的感觉很有意思于是就学习了一下，感谢开源先辈们做出的贡献。
+
+其它相关资料： 
+
 - https://www.mojohaus.org/templating-maven-plugin/
 - https://github.com/mojohaus/templating-maven-plugin
