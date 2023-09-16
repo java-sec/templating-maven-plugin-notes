@@ -655,7 +655,9 @@ public class FilterSourcesMojo extends AbstractFilterSourcesMojo {
 
 # 四、存在的问题
 
-直接在Idea中run是不会运行Maven的build插件执行替换的，只有在Maven方式编译的时候才能生效，那么如何让Idea直接run的时候运行Maven的build插件呢？要不然它不替换啊就蛋疼了
+直接在Idea中run是不会运行Maven的build插件执行替换的，只有在Maven方式编译的时候才能生效，那么如何让Idea直接run的时候运行Maven的build插件呢？要不然它不替换啊就蛋疼了。
+
+不过对于Agent类产品似乎无所谓了？反正也要发包之后attach不影响...
 
 # 五、参考资料
 
